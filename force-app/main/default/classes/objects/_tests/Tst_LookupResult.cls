@@ -1,5 +1,5 @@
 /**
- * @description       : 
+ * @description       : Tests for the Lookup Result class.
  * @author            : Kev Cadger (justKev93)
  * @group             : Testing
  * @last modified on  : 05-08-2021
@@ -11,7 +11,7 @@
 @IsTest
 public class TstLookupResult {
     /**
-    * @description 
+    * @description : Test if the Lookup Result properties are functionaing correctly.
     * @author Kev Cadger (justKev93) | 05-08-2021 
     **/
     @IsTest
@@ -34,6 +34,10 @@ public class TstLookupResult {
         Test.stopTest();
     }
 
+    /**
+    * @description : Test if the compareTo method has been implemented correctly.
+    * @author Kev Cadger (justKev93) | 05-08-2021 
+    **/
     @IsTest
     static void testCompareTo(){
         // Intialise the new Lookup Results.
@@ -61,7 +65,7 @@ public class TstLookupResult {
     }
     
     /**
-    * @description 
+    * @description : Returns a new Lookup Result with the specified values.
     * @author Kev Cadger (justKev93) | 05-08-2021 
     * @param String title 
     * @return LookupResult 
@@ -81,7 +85,7 @@ public class TstLookupResult {
     }
 
     /**
-    * @description 
+    * @description : Returns the JSON object for the Lookup Result.
     * @author Kev Cadger (justKev93) | 05-08-2021 
     * @return Map<String, String> 
     **/
