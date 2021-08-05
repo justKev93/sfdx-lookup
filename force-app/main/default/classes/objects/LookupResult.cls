@@ -1,8 +1,8 @@
 /**
  * @description       : Object Class used to display the results for the lookup component.
  * @author            : Kev Cadger (justKev93)
- * @group             : 
- * @last modified on  : 04-08-2021
+ * @group             : Objects
+ * @last modified on  : 05-08-2021
  * @last modified by  : Kev Cadger (justKev93)
  * Modifications Log
  * Ver   Date         Author                   Modification
